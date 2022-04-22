@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"],
+      "@core/*": ["src/@core/*"],
+      "@admin/*": ["src/app/admin/modules/*"],
+      "@website/*": ["src/app/website/modules/*"],
+      "@global/*": ["src/app/global/*"]
+    }
+  }
+}
